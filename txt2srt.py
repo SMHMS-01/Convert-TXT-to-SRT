@@ -34,4 +34,5 @@ def convert_txt_to_srt(txt_file_path=txt_file_path, srt_file_path=srt_file_path)
     print(f"Conversion successful. SRT file created: {srt_file_path}")
 
 
-convert_txt_to_srt()
+if __name__ == "__main__":
+    convert_txt_to_srt()
